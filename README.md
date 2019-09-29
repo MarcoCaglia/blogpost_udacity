@@ -69,3 +69,8 @@ The textual analysis has shown, that it is possible to group the review_ratings
 into bins and predict those bins, using only the textual descriptions of the
 listing. The model contained in the data reaches a weighted F1-Score of 69.7
 per cent on a test set.
+
+### Note
+
+This repository is the foundation of the following post on Medium:
+[Determinants of Airbnb Prices in Seattle and Boston](https://medium.com/@cagliamarcodeterminants-of-airbnb-prices-in-seattle-and-boston-8efaadddfe79)
