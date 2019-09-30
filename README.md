@@ -73,4 +73,4 @@ per cent on a test set.
 ### Note
 
 This repository is the foundation of the following post on Medium:
-[Determinants of Airbnb Prices in Seattle and Boston](https://medium.com/@cagliamarcodeterminants-of-airbnb-prices-in-seattle-and-boston-8efaadddfe79)
+[Determinants of Airbnb Prices in Seattle and Boston](https://medium.com/@cagliamarco/determinants-of-airbnb-prices-in-seattle-and-boston-8efaadddfe79)
