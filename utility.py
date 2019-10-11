@@ -349,20 +349,20 @@ def concat_to_single(row_in_df: pd.Series) -> str:
     return new_string
 
 
-def score_binning(score_cell: int) -> str:
+def score_binning(score_cell: float) -> str:
     """Turns numeric values in category strings.
 
     Arguments:
-        score_cell {int} -- Number to turn into bin.
+        score_cell {float} -- Number to turn into bin.
 
     Returns:
         str -- Category.
     """
     if score_cell <= 100 and score_cell > 80:
-        return '81-100'
+        return '3'
     elif score_cell <= 80 and score_cell > 60:
-        return '61-80'
+        return '2'
     elif score_cell <= 60 and score_cell > 40:
-        return '41-60'
+        return '1'
     else:
-        return '<=40'
+        return '0'
